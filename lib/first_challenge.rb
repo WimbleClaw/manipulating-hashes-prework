@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"].each do |attribute, value|
+contacts.each do |attribute, value|
   end
 
 end
