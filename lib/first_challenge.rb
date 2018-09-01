@@ -13,11 +13,10 @@ def first_challenge
     }
   }
 
-
-
-end
-
 contacts["Freddy Mercury"].delete_if do |info, value|
  value == "strawberry"
 contacts
 end
+
+end
+
