@@ -15,10 +15,8 @@ def first_challenge
 
 contacts["Freddy Mercury"].delete_if do |info, value|
  value == "strawberry"
+contacts
+end
 
-
-
-  #remember to return your newly altered contacts hash!
-  contacts
 end
 
