@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"].each do |info, value|
-  if value == "strawberry"
-    
+contacts["Freddy Mercury"].delete_if do |info, value|
+ value == "strawberry"
+
 
 
   #remember to return your newly altered contacts hash!
