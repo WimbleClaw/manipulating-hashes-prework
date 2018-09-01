@@ -14,7 +14,8 @@ def first_challenge
   }
 
 contacts["Freddy Mercury"].each do |info, value|
-  if value == 
+  if value == "strawberry"
+    
 
 
   #remember to return your newly altered contacts hash!
